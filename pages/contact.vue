@@ -20,20 +20,28 @@
             <label>Don’t fill this out: <input name="bot-field"/></label>
           </p>
           <b-field label="Name:">
-            <b-input placeholder="Name" icon="account" required> </b-input>
+            <b-input placeholder="Name" icon="account" name="name" required>
+            </b-input>
           </b-field>
 
           <b-field label="Email:">
-            <b-input placeholder="Email" type="email" icon="email" required>
+            <b-input
+              placeholder="Email"
+              type="email"
+              icon="email"
+              name="email"
+              required
+            >
             </b-input>
           </b-field>
 
           <b-field label="Subject:">
-            <b-input placeholder="Subject" icon="label" required> </b-input>
+            <b-input placeholder="Subject" icon="label" name="subject" required>
+            </b-input>
           </b-field>
 
           <b-field label="Message:">
-            <b-input type="textarea" required></b-input>
+            <b-input type="textarea" name="message" required></b-input>
           </b-field>
 
           <b-field class="field is-grouped is-grouped-centered">
