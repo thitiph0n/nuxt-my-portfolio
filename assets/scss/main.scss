@@ -1,0 +1,11 @@
+// Import Bulma's core
+@import "~bulma/sass/utilities/_all";
+
+// Links
+$link: black;
+$link-invert: rgb(107, 106, 106);
+$link-focus-border: $primary;
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
